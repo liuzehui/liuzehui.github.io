@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body{
+	word-wrap: break-word;
+	background:#fff;
+	color:#757575;
+}
+::selection {
+    background: #000;
+    color: #fff;
+}
+.main{
+	text-align: center;
+	overflow:hidden;
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left: 25%;
+	top: 10%;
+}
+.main h1{
+	font-size: 60px;
+}
+.main h1 strong{
+	font-weight: 700;
+}
+.main ul { margin: auto; overflow: hidden; width: 90%}
+.main p a{
+	padding-right: 10%;
+}
+.footer{
+	width:100%;
+	position: absolute;
+	bottom: 0;
+}
+.footer p{
+	text-align: right;
+	opacity: .5;
+    filter: alpha(opacity=50);
+	font-size: 12px;
+	font-family: "Hiragino Sans GB","Microsoft YaHei","\5FAE\8F6F\96C5\9ED1",tahoma,arial,simsun,"\5B8B\4F53";
+}
+.footer p a{
+	color:#000;
+}
+.footer p .spe{
+	padding:0 5px;
+}
